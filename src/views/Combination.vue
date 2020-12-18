@@ -2,31 +2,31 @@
   <div>
     <v-card class="mx-auto mt-4" flat width="600px">
       <v-subheader>
-        Calories
+        Rarity
       </v-subheader>
       <v-slider
         v-model="calories"
         thumb-label
         max='600'
         min='100'
-        track-color='green'
-        track-fill-color='red'
-        thumb-color='green'
+        track-color='grey darken-1'
+				track-fill-color='yellow'
+        thumb-color='yellow'
       ></v-slider>
     </v-card>
 
     <v-card class="mx-auto" flat width="600px">
       <v-subheader>
-        Carbs
+        Illegality
       </v-subheader>
       <v-slider
         v-model="carbs"
         thumb-label
         max='100'
         min='20'
-        track-color='green'
-        track-fill-color='red'
-        thumb-color='green'
+        track-color='grey darken-2'
+				track-fill-color='yellow'
+        thumb-color='yellow'
       ></v-slider>
     </v-card>
 

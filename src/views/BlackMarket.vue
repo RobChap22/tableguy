@@ -2,7 +2,7 @@
   <div>
     <v-card class="mx-auto mt-4" flat width="600px">
       <v-subheader>
-        Calories
+        Rarity
       </v-subheader>
       <v-slider
         v-model="calories"
@@ -16,7 +16,7 @@
     </v-card>
     <v-card class="mx-auto" flat width="600px">
       <v-subheader>
-        Carbs
+        Illegality
       </v-subheader>
       <v-slider
         v-model="carbs"

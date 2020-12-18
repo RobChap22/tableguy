@@ -7,7 +7,8 @@
     sort-by="name"
     group-by="category"
     class="elevation-1"
-
+		dark
+		hide-actions
   ></v-data-table>
 
 </template>
@@ -27,7 +28,6 @@
             groupable: false,
           },
           { text: 'Category', value: 'category', align: 'right' },
-
         ],
         desserts: [
           {

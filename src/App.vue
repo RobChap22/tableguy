@@ -2,10 +2,10 @@
   <v-app>
     <v-app-bar
       app
-      id='navbar-fatty'
+      color="yellow"
       dark
     >
-      <v-toolbar-title>Fat Bastard</v-toolbar-title>
+      <v-toolbar-title class="grey--text text--darken-2">'Commie' Jonny Phambino's Underhive Emporium</v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -13,6 +13,7 @@
         text
         rounded
         to='/tradingpost'
+				class="grey--text text--darken-2"
       >
         Category
       </v-btn>
@@ -20,6 +21,7 @@
         text
         rounded
         to='/blackmarket'
+				class="grey--text text--darken-2"
       >
         Slider
       </v-btn>
@@ -27,6 +29,7 @@
         text
         rounded
         to='/combination'
+				class="grey--text text--darken-2"
       >
         Combo
       </v-btn>
@@ -54,7 +57,7 @@ export default Vue.extend({
 
 <style>
   #navbar-fatty {
-    background: rgb(244,67,54);
-    background: linear-gradient(90deg, rgba(244,67,54,1) 0%, rgba(76,175,80,1) 100%);
+    background: #FFE600;
+		color: #333333;
   }
 </style>
