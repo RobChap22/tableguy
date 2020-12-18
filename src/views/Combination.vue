@@ -24,7 +24,7 @@
         thumb-label
         max='100'
         min='20'
-        track-color='grey darken-2'
+        track-color='grey darken-1'
 				track-fill-color='yellow'
         thumb-color='yellow'
       ></v-slider>
